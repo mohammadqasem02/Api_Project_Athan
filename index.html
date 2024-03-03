@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API</title>
+    <link rel="stylesheet" href="style/home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="direction: rtl">
+    <div>
+      <!-- City name and data -->
+      <div>
+        <div style="color: aliceblue; margin-right: 2rem">
+          <h1 class="city_name" id="city-name">الزرقاء</h1>
+          <h6 id="date" style="font-weight: 200; font-size: 1.2rem">
+            الجمعة 24 نوفمبر
+          </h6>
+        </div>
+
+        <hr style="margin: 10px 30px; border-color: whitesmoke" />
+
+        <div class="cards">
+          <div class="card">
+            <div class="title">
+              <h1>الفجر</h1>
+            </div>
+            <div class="data">
+              <h1 id="fajr-time">4.30</h1>
+            </div>
+          </div>
+          <div class="card">
+            <div class="title">
+              <h1>الظهر</h1>
+            </div>
+            <div class="data">
+              <h1 id="durth-time">4.30</h1>
+            </div>
+          </div>
+          <div class="card">
+            <div class="title">
+              <h1>العصر</h1>
+            </div>
+            <div class="data">
+              <h1 id="asr-time">4.30</h1>
+            </div>
+          </div>
+          <div class="card">
+            <div class="title">
+              <h1>المغرب</h1>
+            </div>
+            <div class="data">
+              <h1 id="sunset-time">4.30</h1>
+            </div>
+          </div>
+          <div class="card">
+            <div class="title">
+              <h1>العشاء</h1>
+            </div>
+            <div class="data">
+              <h1 id="esha-time">4.30</h1>
+            </div>
+          </div>
+        </div>
+        <div
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5rem;
+          "
+        >
+          <select
+            name=""
+            id="cities"
+            style="width: 300px; height: 40px; font-size: 30px"
+          ></select>
+        </div>
+      </div>
+    </div>
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
