@@ -110,7 +110,7 @@ html {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        top: 10rem;
+        top: 8rem;
     }
 
     #cities {
